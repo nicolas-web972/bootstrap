@@ -7,10 +7,43 @@
     height: 100px;
     background-color: rgb(38, 139, 18);
     border: 1px solid white;
+    animation-name: colors;
+    animation-duration: 7s;
+    animation-delay: 1s;
+    animation-timing-function: ease-in-out;
 }
 
 .container {
     margin: 0 auto;
-    margin-top: 10px;
+    margin-top: 40px;
 }
+
+@keyframes colors {
+    from {
+        background-color: rgb(255, 210, 189); left: 0px; top:0px;
+    }
+    20.5% {
+        background-color: rgb(199, 29, 23); left:200px; top:0px;
+    }
+    10% {
+        background-color: rgb(246,130,32); left:600px; top:100px
+    }
+    30.5% {
+        background-color: rgb(216, 221, 203); left:900px; top:0px
+    }
+    50% {
+        background-color: rgb(78, 166, 218); left:1200px; top:100px
+    }
+    63.5% {
+        background-color: rgb(10, 42, 112); left:900px; top:0px
+    }
+    65% {
+        background-color: rgb(49, 186, 250); left:600px; top:100px
+    }
+    86.5% {
+        background-color: rgb(125, 180, 204); left:300px; top:0px
+    }
+    to {
+        background-color: rgb(35, 168, 106); left:0px; top:100px
+    }
 
